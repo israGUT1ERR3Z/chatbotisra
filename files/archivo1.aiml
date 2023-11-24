@@ -11,8 +11,22 @@
     </category>
 
     <category>
+        <pattern>* ENTRADAS</pattern>
+        <template>
+            <srai>ENTRADAS</srai>
+        </template>
+    </category>
+
+    <category>
         <pattern>SOPA</pattern>
         <template>Se tiene una sopa fría o consomé ¿Qué te gustaría pedir?</template>
+    </category>
+
+    <category>
+        <pattern>* COLOR * ARBOL</pattern>
+            <template>
+                Depende del tipo de árbol que quieras, por lo regular, tiene hojas verdes y tallo café
+            </template>
     </category>
   
 </aiml>
