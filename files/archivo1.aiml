@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>HOLA</pattern>
+        <template>Hola, bienvenido al chatbot. ¿Qué necesitas?</template>
+    </category>
+
+    <category>
+        <pattern>ENTRADAS</pattern>
+        <template>Se tiene palitos de apio, ensalada o fruta picada</template>
+    </category>
+
+    <category>
+        <pattern>SOPA</pattern>
+        <template>Se tiene una sopa fría o consomé ¿Qué te gustaría pedir?</template>
+    </category>
+  
+</aiml>
