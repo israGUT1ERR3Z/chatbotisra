@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
     <category>
-        <pattern>HOLA</pattern>
-        <template>Hola, bienvenido al chatbot. ¿Qué necesitas?</template>
+        <pattern>HOLA *</pattern>
+        <template>
+            <random>
+                <li>Hola, bienvenido al chatbot. ¿Qué necesitas?</li>
+                <li>Hola, espero que te encuentres bien ¿Dime qué necesitas de mi?</li>
+                <li>Hola, bienvenido. Espero que mi servicio sea útil para tí. Dime lo que necesitas</li>
+                <li>Hola, sé bienvenido al chatbot. ¿Te puedo ayudar en algo?</li>
+            </random>
+        </template>
     </category>
 
     <category>
