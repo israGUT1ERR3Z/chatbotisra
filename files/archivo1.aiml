@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
     <category>
-        <pattern>HOLA *</pattern>
+        <pattern>HOLA</pattern>
         <template>
             <random>
                 <li>Hola, bienvenido al chatbot. ¿Qué necesitas?</li>
