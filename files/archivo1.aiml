@@ -23,6 +23,13 @@
             <srai>ENTRADAS</srai>
         </template>
     </category>
+    
+    <category>
+        <pattern>NO ME GUSTA TU * RESPUESTA</pattern>
+        <template>
+            Una disculpa por mi <star /> respuesta
+        </template>
+    </category>
 
     <category>
         <pattern>SOPA</pattern>
